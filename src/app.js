@@ -34,7 +34,6 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    aboutText: "Interesting fact about this site.",
     name: "Tom Bran",
   });
 });
